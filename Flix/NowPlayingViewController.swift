@@ -8,6 +8,7 @@
 
 import UIKit
 import AlamofireImage
+import VHUD
 
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
@@ -31,9 +32,16 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
     }
     
+    
     func didPullToRefresh(_ refreshControl: UIRefreshControl) {
         activityIndicator.startAnimating()
+        var content = VHUDContent(.loop(3.0))
+        content.loadingText = "Loading.."
+        content.completionText = "Finish!"
+        
+        VHUD.show(content)
         fetchMovies()
+        VHUD.dismiss(1.0, 1.0)
         activityIndicator.stopAnimating()
         
     }
