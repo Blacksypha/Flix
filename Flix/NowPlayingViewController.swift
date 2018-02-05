@@ -2,7 +2,7 @@
 //  NowPlayingViewController.swift
 //  Flix
 //
-//  Created by Tevin Lewis on 2/4/18.
+//  Created by Cory Dashiell on 2/4/18.
 //
 //
 
@@ -12,6 +12,7 @@ import AlamofireImage
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -31,7 +32,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     }
     
     func didPullToRefresh(_ refreshControl: UIRefreshControl) {
+        activityIndicator.startAnimating()
         fetchMovies()
+        activityIndicator.stopAnimating()
         
     }
     

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Flix
 //
-//  Created by Tevin Lewis on 2/4/18.
+//  Created by Cory Dashiell on 2/4/18.
 //
 //
 
