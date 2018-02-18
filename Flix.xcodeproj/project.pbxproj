@@ -10,6 +10,7 @@
 		497E30C725ADBCD8407792B1 /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB10FD73F50CF2E70BE21B3 /* Pods_FlixUITests.framework */; };
 		58AA57D3AF1AC1BDFAC499FC /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FCF787B1067EB5D74257FD /* Pods_Flix.framework */; };
 		F8A8B077014650BAD388807F /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EBFE0154F49593CA997910 /* Pods_FlixTests.framework */; };
+		FE0F3A20203A142700EE297F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F3A1F203A142700EE297F /* DetailViewController.swift */; };
 		FE663EB12027D2C9008843EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE663EB02027D2C9008843EA /* AppDelegate.swift */; };
 		FE663EB62027D2C9008843EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE663EB42027D2C9008843EA /* Main.storyboard */; };
 		FE663EB82027D2C9008843EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE663EB72027D2C9008843EA /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		AFB10FD73F50CF2E70BE21B3 /* Pods_FlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2CB5B7E9A14B6D41CB273F /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
 		DED2299133E1D30725D51612 /* Pods-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixUITests/Pods-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE0F3A1F203A142700EE297F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FE663EAD2027D2C9008843EA /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE663EB02027D2C9008843EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE663EB52027D2C9008843EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,6 +116,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FE0F3A1D203A13C700EE297F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE663EDE2027E247008843EA /* NowPlayingViewController.swift */,
+				FE0F3A1F203A142700EE297F /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE0F3A1E203A13CF00EE297F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEDBB6D52027F87700E9BF2F /* MovieCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		FE663EA42027D2C8008843EA = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +158,13 @@
 		FE663EAF2027D2C9008843EA /* Flix */ = {
 			isa = PBXGroup;
 			children = (
-				FE663EDE2027E247008843EA /* NowPlayingViewController.swift */,
+				FE0F3A1E203A13CF00EE297F /* Views */,
+				FE0F3A1D203A13C700EE297F /* ViewControllers */,
 				FE663EB02027D2C9008843EA /* AppDelegate.swift */,
 				FE663EB42027D2C9008843EA /* Main.storyboard */,
 				FE663EB72027D2C9008843EA /* Assets.xcassets */,
 				FE663EB92027D2C9008843EA /* LaunchScreen.storyboard */,
 				FE663EBC2027D2C9008843EA /* Info.plist */,
-				FEDBB6D52027F87700E9BF2F /* MovieCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -467,6 +486,7 @@
 				FE663EDF2027E247008843EA /* NowPlayingViewController.swift in Sources */,
 				FE663EB12027D2C9008843EA /* AppDelegate.swift in Sources */,
 				FEDBB6D62027F87700E9BF2F /* MovieCell.swift in Sources */,
+				FE0F3A20203A142700EE297F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
