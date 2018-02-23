@@ -28,8 +28,8 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Better ways of implementation
+2. How to connect this application to Fandango? To find nearby theaters playing selected movies
 
 ## Video Walkthrough
 
@@ -46,6 +46,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 Describe any challenges encountered while building the app.
 
 - I struggled with figuring out how to implement the loading state while waiting for movies to load. Without the user stories and video walkthroughs I wasn't exactly sure where to place the code.
+
 ## License
 
 Copyright [2018] [Cory Dashiell]
@@ -64,7 +65,7 @@ limitations under the License.
 
 # Project 2 - Flix
 
-**Name of your app** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Flix is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: **X** hours spent in total
 
@@ -90,20 +91,24 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Better/different ways to implement
+2. How to go into more detail about the movie (i.e. A "cast" page with all the actors names)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src=' https://i.imgur.com/hoYygXu.gifv ' title='Detail View' width='' alt='Video Walkthrough' />
+
+<img src=' https://i.imgur.com/GZWjLo6.gifv ' title='Tab View' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+- I find that understanding the syntax is what slows me down when creating apps in Xcode. I don't always know what things mean, so I'm not sure how to approach crashes when I don't understand the error messages, or I won't know how to call or initialize something. This is very different from coding in C++ or Python.'
 
 ## License
 
